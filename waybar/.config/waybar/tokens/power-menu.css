@@ -1,0 +1,35 @@
+@import 'colors.css';
+
+/* The custom module itself */
+#custom-powermenu {
+    background: transparent;
+    color: #444444;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+/* The popup GtkMenu container */
+menu {
+    background-color: @surface_container;
+    border-radius: 8px;
+    border: 1px solid #444444;
+    padding: 8px;
+}
+
+/* Individual list items within the dropdown */
+menuitem {
+    color: #999999;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+menuitem:hover {
+    background-color: @surface_container_highest;
+    color: #FFFFFF;
+}
+
+/* Adding an icon separator in the dropdown */
+menuitem#delimiter1 {
+    border-bottom: 1px solid #45475a;
+    margin: 4px 0;
+}

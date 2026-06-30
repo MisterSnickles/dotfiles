@@ -1,0 +1,10 @@
+{
+  "clock": {
+    "timezone": "America/Chicago",
+    "interval": 1,
+    "format": "<span size='11pt'>{:%r}</span>",
+    "format-alt": "󰃱 <span size='11pt'>{:%d %B %Y}</span>",
+    "on-click-right": ""
+  }
+}
+q
